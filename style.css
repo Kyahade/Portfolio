@@ -162,6 +162,22 @@ footer {
     flex: 1 1 100%;
   }
 }
+.project-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+.project-btn:hover {
+  background-color: #2563eb;
+}
+
 
 @media (max-width: 480px) {
   nav {
